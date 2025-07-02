@@ -1,0 +1,159 @@
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a3cfcf;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.site-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(234, 229, 229);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Navigation */
+nav {
+  margin-top: -4px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-size: 25px;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(15, 1, 1);
+}
+
+.divider {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgb(181, 228, 228);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Contact box (only used in contact section now) */
+.content-box {
+  background-color: #f6f4f4;
+  padding: 25px;
+  border: 1px solid #110101;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Starfish image float */
+.starfish-img {
+  float: left;
+  margin-right: 15px;
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.story::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Facts list */
+.facts ul {
+  padding-left: 20px;
+}
+
+/* Form styling */
+form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #130202;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #100101;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Radio buttons – now no box */
+.radio-group {
+  margin-top: 10px;
+}
+
+.radio-group p {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.radio-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 30px;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #aad4cf;
+  margin-top: 20px;
+}
